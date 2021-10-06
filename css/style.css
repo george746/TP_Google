@@ -1,0 +1,81 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem sans-serif;
+
+}
+h1,h2,h3,h4,p{
+    margin: 0%;
+}
+input{
+    border: 0.1rem solid black;
+    outline: none;
+
+}
+a{ 
+   text-decoration: none;
+   color: #222;
+}
+*{
+    box-sizing: border-box;
+}
+header img{
+    display: block;
+    margin: auto ;
+    margin-top: 7rem;
+    width: 20%;
+}
+main div {
+    display: block;
+    line-height: 4rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 1rem ;
+    border-radius: .4rem;
+
+}
+div input:nth-child(1){
+    width: 65rem;
+    font-size: 2.5rem;
+    border: 0.1rem solid #dfe1e5 ;
+    border-radius: 4rem;
+    margin-top: 2rem;
+    box-shadow: 1rem #dfe1e5;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+input{
+    border: transparent;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    background-color: #f2f2f2; 
+    color: #555a5c;
+    padding: 1rem 1rem 1rem 1rem;
+}
+footer{
+    background-color: #f2f2f2;
+    border: 0.1rem transparent;
+    width: 100%;
+    bottom: 0rem;
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+    position: absolute;
+    word-spacing: 2.5rem;
+}
+p{
+    padding-bottom: 0rem;
+    border-bottom: 0.1rem solid #dadce0;
+    color: #81858a;
+
+}
+
+footer ul li{
+    display: inline-block;
+    width: calc(100% / 6);
+    float: left;
+    word-spacing: 1rem;
+    color: #81858a;
+}
